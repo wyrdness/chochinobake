@@ -1,0 +1,356 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/chochinobake",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "chochinobake",
+    "name": "Chochinobake",
+    "aliases": [
+      {
+        "name": "提灯お化け",
+        "language": "Japanese",
+        "romanization": "chochinobake",
+        "meaning": "lantern ghost"
+      },
+      {
+        "name": "Chochin-obake",
+        "language": "Japanese (alternative)",
+        "romanization": "chochin-obake"
+      },
+      {
+        "name": "Lantern Ghost",
+        "language": "English",
+        "region": "Translation"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Japanese Yokai / Tsukumogami",
+    "tags": [
+      "yokai",
+      "tsukumogami",
+      "japanese-folklore",
+      "animated-object",
+      "harmless",
+      "mischievous",
+      "lantern",
+      "tool-spirit"
+    ],
+    "status": "traditional_folklore",
+    "description": {
+      "summary": "An animated paper lantern yokai, a type of tsukumogami (object that gained sentience after 100 years). Characterized by one eye, a long tongue, and sometimes teeth, chochinobake hang from eaves and unfold to startle passersby with harmless pranks.",
+      "full": "Chochinobake (提灯お化け, 'lantern ghost') is a type of Japanese yokai classified as tsukumogami—objects that have gained sentience and spirit after being neglected or abandoned for 100 years. Specifically, chochinobake are old paper lanterns (chochin) that have come to life. The typical appearance features a paper lantern body with one large eye, a long tongue hanging out, and sometimes visible teeth. Unlike the hopping kasa-obake (umbrella yokai), chochinobake typically hang from eaves or remain suspended, unfurling to reveal their eye and tongue to surprise unsuspecting people passing below. These yokai are mostly harmless, engaging in mischievous pranks rather than causing genuine harm. Chochinobake embody the traditional Japanese philosophy of mottainai (avoiding waste) and the Shinto animistic belief that all objects, especially those used for many years, can develop spirits (kami). They serve as cultural reminders to treat possessions with respect and gratitude for their service. Regional variations exist in both appearance and behavior. In modern times, chochinobake have become popular yokai in games (such as Pokemon's Lampent, which draws inspiration from this yokai), anime, and various media, maintaining cultural relevance while teaching traditional values about caring for one's possessions."
+    },
+    "etymology": {
+      "origin": "From Japanese 提灯 (chochin, 'paper lantern') and お化け (obake, 'ghost' or 'thing that changes')",
+      "meaning": "Lantern ghost, lantern spirit",
+      "first_use": "Edo period (1603-1868)"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Yokai",
+      "subtype": "Tsukumogami",
+      "variant": "Animated Tool/Object"
+    },
+    "related_phenomena": [
+      {
+        "id": "kasa-obake",
+        "name": "Kasa-obake",
+        "relationship": "similar",
+        "description": "Paper umbrella tsukumogami with very similar appearance and nature"
+      },
+      {
+        "id": "tsukumogami",
+        "name": "Tsukumogami",
+        "relationship": "parent_category",
+        "description": "Objects that gain sentience after 100 years"
+      },
+      {
+        "id": "hitotsume-kozo",
+        "name": "Hitotsume-kozo",
+        "relationship": "related",
+        "description": "One-eyed yokai; shares single-eye characteristic"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "base_form": {
+        "description": "Old paper lantern (chochin) brought to life",
+        "components": [
+          "Paper lantern body (accordion-style collapsible)",
+          "Bamboo or wire frame",
+          "Hanging cord or hook",
+          "Candle holder (interior)"
+        ]
+      },
+      "animated_form": {
+        "description": "Lantern with anthropomorphic features",
+        "features": [
+          {
+            "feature": "Single large eye",
+            "description": "One eye visible on the lantern's surface",
+            "frequency": "always"
+          },
+          {
+            "feature": "Long tongue",
+            "description": "Tongue hanging or lolling out",
+            "frequency": "common"
+          },
+          {
+            "feature": "Teeth/mouth",
+            "description": "Sometimes shows teeth or defined mouth",
+            "frequency": "occasional"
+          },
+          {
+            "feature": "Arms",
+            "description": "Some depictions show small arms",
+            "frequency": "rare"
+          }
+        ]
+      },
+      "size": "Standard paper lantern size (varies, typically 30-60cm tall)",
+      "appearance": "Mischievous and startling rather than truly frightening",
+      "illumination": "May glow from within (ghostly light)"
+    },
+    "tsukumogami_nature": {
+      "age_requirement": "100 years of neglect or abandonment",
+      "transformation_trigger": "Being discarded, forgotten, or abandoned after long service",
+      "type": "Tool spirit, animated object"
+    },
+    "abilities": [
+      {
+        "ability": "Unfurling/expanding",
+        "description": "Can unfold lantern body to reveal features suddenly",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Hanging/levitation",
+        "description": "Hangs from eaves or floats in air",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Sentience",
+        "description": "Aware, conscious, can perceive surroundings",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Surprising people",
+        "description": "Startles passersby by suddenly revealing features",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Ghostly illumination",
+        "description": "Glows with eerie light from within",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "disposition": "mischievous",
+      "temperament": [
+        "Playfully startling",
+        "Mischievous (harmlessly)",
+        "Non-threatening",
+        "Somewhat comical"
+      ],
+      "notable_behaviors": [
+        "Hanging from eaves of buildings",
+        "Suddenly unfurling to reveal eye and tongue",
+        "Startling people passing beneath",
+        "Generally harmless pranks",
+        "Sometimes swaying or moving slightly"
+      ],
+      "activity_period": "nocturnal",
+      "habitat": [
+        "Hanging from eaves",
+        "Doorways and entrances",
+        "Traditional buildings",
+        "Near where it was discarded"
+      ],
+      "danger_level": "harmless"
+    },
+    "regional_variations": {
+      "appearance": "Regional differences in how features are depicted",
+      "behavior": "Some areas describe more or less active variants"
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Traditional Japanese folklore, particularly Edo period urban culture",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Throughout Japan",
+        "Particularly associated with traditional buildings and temples"
+      ]
+    },
+    "cultural_context": {
+      "period": "Edo period (1603-1868) through modern times",
+      "cultural_significance": "Embodies mottainai philosophy (anti-waste) and respect for objects; popular yokai in modern media"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Part of tsukumogami tradition—the belief that tools and objects gain spirits after long use and subsequent abandonment",
+      "earliest_accounts": "Edo period folklore and illustrated yokai encyclopedias",
+      "folklore_connections": "Connected to Shinto animistic beliefs that all things can possess spirit (kami)"
+    },
+    "cultural_philosophy": {
+      "mottainai": "Represents the concept of avoiding wastefulness and respecting the service of objects",
+      "gratitude": "Reminder to appreciate tools and objects that serve us",
+      "animism": "Reflects Shinto belief that all things, even inanimate objects, can house spirit"
+    },
+    "cultural_impact": [
+      {
+        "aspect": "Moral teaching",
+        "description": "Stories teach respect for possessions and consequences of wastefulness"
+      },
+      {
+        "aspect": "Popular culture",
+        "description": "Featured prominently in modern games, anime, and media"
+      },
+      {
+        "aspect": "Cultural symbol",
+        "description": "Represents Japanese values of respect and gratitude for objects"
+      }
+    ],
+    "modern_era": "Chochinobake remain popular in Japanese media, particularly in video games like Pokemon (Lampent being inspired by chochinobake), anime, and modern yokai interpretations."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Edo period yokai folklore",
+        "Tsukumogami tales",
+        "Illustrated yokai encyclopedias (Toriyama Sekien's works)"
+      ],
+      "stories": [
+        "Tales of lanterns startling nighttime travelers",
+        "Stories teaching respect for tools",
+        "Accounts of harmless encounters at temples and homes"
+      ],
+      "beliefs": "Objects used for 100 years develop spirits; abandonment or disrespect can cause transformation"
+    },
+    "philosophy": {
+      "mottainai": {
+        "description": "Sense of regret over waste",
+        "application": "Chochinobake remind people not to waste or discard useful items"
+      },
+      "object_gratitude": {
+        "description": "Traditional respect for tools and objects that serve humans",
+        "application": "Proper treatment prevents transformation into yokai"
+      },
+      "shinto_animism": {
+        "description": "Belief that all things can possess kami (spirit)",
+        "application": "Long-used objects deserve respect for their service"
+      }
+    },
+    "cultural_sensitivity": {
+      "note": "Chochinobake represent genuine Japanese cultural values about waste, respect, and gratitude",
+      "respect_guidelines": "Understanding the underlying philosophy enriches appreciation of the folklore"
+    },
+    "popular_culture": {
+      "anime_manga": [
+        "GeGeGe no Kitaro and other yokai series",
+        "Various supernatural anime featuring chochinobake",
+        "Character design inspiration"
+      ],
+      "games": [
+        "Pokemon - Lampent (inspired by chochinobake)",
+        "Various yokai-themed games",
+        "Japanese RPGs featuring tsukumogami"
+      ],
+      "other": [
+        "Merchandise and character goods",
+        "Tourist items",
+        "Modern art and design inspiration"
+      ]
+    }
+  },
+
+  "theories": {
+    "folkloric": [
+      {
+        "name": "100-year transformation",
+        "description": "Objects abandoned after 100 years of service gain life and spirit",
+        "basis": "Traditional tsukumogami belief"
+      },
+      {
+        "name": "Spirit inhabitation",
+        "description": "Discarded objects attract wandering spirits or develop their own",
+        "basis": "Shinto animistic tradition"
+      }
+    ],
+    "cultural": [
+      {
+        "name": "Anti-waste teaching",
+        "description": "Stories serve to discourage wastefulness and promote care for possessions",
+        "basis": "Mottainai philosophy and practical concerns"
+      },
+      {
+        "name": "Gratitude cultivation",
+        "description": "Folklore encourages appreciation for tools and objects that serve humans",
+        "basis": "Cultural values of respect and mindfulness"
+      },
+      {
+        "name": "Animistic worldview",
+        "description": "Reflects Shinto belief that all things have potential for spiritual presence",
+        "basis": "Traditional Japanese spiritual understanding"
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "foster-2015",
+      "type": "book",
+      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
+      "authors": ["Michael Dylan Foster"],
+      "publication": "University of California Press",
+      "date": "2015",
+      "isbn": "978-0520271029"
+    },
+    {
+      "id": "sekien-gazu",
+      "type": "book",
+      "title": "Gazu Hyakki Yagyō (The Illustrated Night Parade of a Hundred Demons)",
+      "authors": ["Toriyama Sekien"],
+      "publication": "Original 1776",
+      "note": "Classic Edo period yokai encyclopedia"
+    },
+    {
+      "id": "yokai-database",
+      "type": "website",
+      "title": "Yokai.com Database - Chochinobake",
+      "url": "https://yokai.com/chochinobake/",
+      "accessed": "2026-01-14"
+    }
+  ]
+}
