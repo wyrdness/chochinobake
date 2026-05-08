@@ -1,366 +1,172 @@
-# Chochinobake (提灯お化け)
+# Chōchin-obake
 
-> *"Even a worn lantern that lit your way deserves more than abandonment."*
+> Chōchin-obake is a Japanese yōkai depicted as an old paper lantern (chōchin) that has split open along its bamboo ribs to reveal a single eye, a long protruding tongue, and a wide mouth — a classic example of a tsukumogami, an everyday object brought to life after long use.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Category](https://img.shields.io/badge/category-ENTITY__SPIRIT-purple)]()
-[![Status](https://img.shields.io/badge/status-traditional__folklore-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `chochinobake` |
 | **Category** | ENTITY_SPIRIT |
-| **Classification** | Yokai / Tsukumogami |
-| **Origin** | Japan (Edo period) |
-| **Type** | Animated Object Spirit |
-| **Status** | Traditional Folklore |
-| **Danger Level** | Harmless |
+| **Subcategory** | Tsukumogami (animated-object yōkai) |
+| **First recorded** | 1781 |
+| **Primary range** | The chōchin-obake is a creature of the Japanese popular imagination, attested across the Japanese archipelago through printed illustration and stage drama, with no specific regional folk-legend tradition |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-Chochinobake (提灯お化け, "lantern ghost") is a beloved yokai from Japanese folklore, representing an old paper lantern that has gained sentience after 100 years of service. A type of **tsukumogami** (animated object spirit), chochinobake are created when paper lanterns are neglected or abandoned after faithfully lighting the way for their owners for many decades.
-
-These yokai are instantly recognizable: a paper lantern body with a single large eye, a long tongue hanging out, and sometimes visible teeth or a defined mouth. Chochinobake typically hang from eaves, doorways, or float in the air, suddenly unfurling to reveal their features and startle unsuspecting passersby.
-
-Like their cousin the kasa-obake (umbrella yokai), chochinobake are **completely harmless**—mischievous pranksters who enjoy surprising people but mean no actual harm. They embody important Japanese cultural values: **mottainai** (regret over wastefulness), gratitude for everyday objects, and the Shinto belief that all things can develop spiritual presence.
+Chōchin-obake (提灯お化け, 'lantern ghost') is one of the best-known Japanese yōkai, classed as a tsukumogami: a household tool that gains a spirit after a hundred years of use, especially when neglected or carelessly discarded. Visually, the chōchin-obake is an Edo-style paper-and-bamboo lantern that has split vertically along its ribs to open a wide mouth, from which a long red tongue lolls; one or two large eyes peer out above the mouth, and the lantern often grows arms. Although it sometimes appears suspended from house eaves and pops open to startle passers-by, it is consistently described as harmless and even comedic, making it a stock figure in haunted-house attractions, children's picture books and games, and modern manga and anime. The chōchin-obake is best known from Edo-period kusazōshi (popular illustrated books), obake-karuta (ghost cards), and ukiyo-e prints, with prominent depictions by Toriyama Sekien (under the related name bura-bura), Katsushika Hokusai (the famous Oiwa-san lantern in Hyaku Monogatari, 1831–32) and Utagawa Kuniyoshi. Folklorists note that, despite its fame, the chōchin-obake has almost no associated regional legend; it is classified as 'a yōkai that exists only in pictures' (e-yōkai), embodying broader Japanese cultural ideas about mottainai (regret over wastefulness), gratitude for everyday objects, and the Shinto-derived intuition that long-used things may develop spiritual presence.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| 提灯お化け | Japanese | lantern ghost / lantern monster |
+| Chōchin'obake | Japanese (romanised) |  |
+| Bake-chōchin | Japanese | monster lantern |
+| Bura-bura | Japanese | literally 'dangle-dangle'; name used by Toriyama Sekien for a hanging lantern yōkai |
 
-### Primary Name
-- **Chochinobake** (提灯お化け) — From 提灯 (*chochin*, "paper lantern") and お化け (*obake*, "ghost/thing that changes")
+## Etymology
 
-### Alternative Names
-
-| Name | Language | Meaning |
-|------|----------|---------|
-| 提灯お化け | Japanese (kanji) | Lantern ghost |
-| Chochin-obake | Japanese (alt.) | Alternative romanization |
-| Lantern Ghost | English | Translation |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: ENTITY_SPIRIT
-├── Type: Yokai
-├── Subtype: Tsukumogami
-└── Variant: Animated Tool/Object
-```
-
-### What is Tsukumogami?
-
-**Tsukumogami** (付喪神, "artifact spirit") are objects that gain sentience:
-- Must serve humans for **100 years**
-- Transform when neglected or abandoned
-- Embody spirit developed through years of service
-- Represent objects awakening to consciousness
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Kasa-obake](/kasa-obake) | Similar | Paper umbrella tsukumogami, very similar nature |
-| [Tsukumogami](/tsukumogami) | Parent category | General category of animated objects |
-| Hitotsume-kozo | Related | One-eyed yokai sharing the single-eye trait |
+- **Origin**: Japanese: 提灯 (chōchin, 'paper lantern') + お化け (obake, 'monster, ghost'). The variant bake-chōchin reverses the order. The name bura-bura ('dangle-dangle') used by Toriyama Sekien refers to its hanging from house eaves.
+- **Meaning**: Literally 'lantern ghost' or 'monster lantern'.
+- **First use**: Recognised as a stock yōkai by 1784 (Edo period); the related bura-bura name is recorded in Toriyama Sekien's Gazu Hyakki Tsurezure Bukuro (1781).
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Kasa-obake](../kasa-obake/) — _similar_: One-eyed, one-legged umbrella yōkai; the most direct counterpart of the chōchin-obake within tsukumogami iconography
+- [Tsukumogami](../tsukumogami/) — _superset_: General class of animated household objects to which the chōchin-obake belongs
+- [Bakeneko](../bakeneko/) — _related_: Also a yōkai famously depicted holding a lantern in Hokusai's Oiwa imagery
+- [Futakuchi-onna](../futakuchi-onna/) — _related_: Another Edo-period yōkai featured alongside the chōchin-obake in obake-karuta and kusazōshi
 
-### Physical Appearance
+---
+## Physical Description
 
-**Base Form**: Old paper lantern (chochin)
-- Traditional Japanese accordion-style paper lantern
-- Bamboo or wire frame
-- Collapsible structure
-- Hanging cord or hook
-- Interior candle holder
+- **Coloration**: paper white, ivory yellowed with age, reddish-orange (lit lantern)
+- **Morphology**: Bipartite: the lower half is a recognisable Edo-style chōchin (paper-and-bamboo lantern), while the upper half is an animate face. Modern depictions in manga and anime tend to add cartoon arms and exaggerated tongues.
 
-**Animated Form**:
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| **Single eye** | Large eye on lantern surface | Always |
-| **Long tongue** | Tongue hanging or lolling out | Common |
-| **Teeth/mouth** | Visible teeth or defined mouth | Occasional |
-| **Arms** | Small arms from sides | Rare |
-| **Ghostly glow** | Eerie light from within | Occasional |
+|---|---|---|
+| Vertical split mouth | The lantern's paper splits along the bamboo ribs to form a wide grinning mouth | always |
+| Single or double eye | One large eye, sometimes two, opens above the mouth | always |
+| Long red tongue | Tongue protrudes from the mouth, often dripping or lolling | common |
+| Floating in mid-air | Hovers from ceiling beams, eaves, or shop frontages | common |
+| Arms or wings | Some Edo-period and modern depictions add small arms or papery wings | occasional |
+| Inner candle still burning | Original wax candle continues to glow inside, throwing dramatic shadow | occasional |
 
-**Size**: Standard paper lantern (typically 30-60cm tall)
+## Reported Abilities
 
-**Overall Impression**: Mischievous and startling, not truly frightening
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Sudden unfurling | Pops open from a closed lantern shape to startle a passer-by | always | folklore |
+| Self-illumination | Can light itself without an external candle | common | folklore |
+| Levitation | Floats in mid-air, drifting through hallways and along streets | common | folklore |
+| Mischief | Plays harmless pranks rather than causing real harm | common | folklore |
 
-### Tsukumogami Nature
+## Behavior
 
-**Transformation Requirements**:
-- **Age**: 100 years of faithful service
-- **Trigger**: Being discarded or abandoned
-- **Emotion**: "Feelings" of abandonment after decades of usefulness
-
-The transformation represents the lantern's response to neglect after lighting paths for generations.
-
----
-
-## Behavior & Abilities
-
-### Disposition
-**Mischievous but Harmless** — Enjoys pranks but causes no harm
-
-**Temperament**:
-- Playfully startling to passersby
-- Mischievous (harmlessly)
-- Non-threatening
-- Somewhat comical
-
-### Typical Behaviors
-- **Hanging from eaves** — Suspended from building edges, doorways
-- **Sudden unfurling** — Expanding to reveal eye and tongue unexpectedly
-- **Startling pedestrians** — Appearing suddenly to people passing below
-- **Harmless pranks** — No malicious intent or actual harm
-- **Slight swaying** — Moving as if in breeze (even when there is none)
-
-### Abilities
-
-| Ability | Description |
-|---------|-------------|
-| **Unfurling/expanding** | Can collapse and expand suddenly for surprise effect |
-| **Hanging/levitation** | Hangs from eaves or floats in air |
-| **Sentience** | Fully aware and conscious |
-| **Startling** | Reveals features suddenly to surprise people |
-| **Ghostly light** | Sometimes glows eerily from within |
-
-### Activity Patterns
-- **Time**: Nocturnal (active at night)
-- **Location**: Eaves, doorways, traditional buildings
-- **Weather**: Any (unlike kasa-obake, not particularly rain-associated)
-- **Danger**: None—completely harmless
+- **Activity**: nocturnal
+- **Disposition**: neutral
+- **Social structure**: solitary
+- **Habitat**: Old homes, Disused storehouses, Temple gates and street eaves, Haunted-house attractions
+- **Diet**: Not applicable
 
 ---
+## Distribution
 
-## Chochinobake vs. Kasa-obake
+The chōchin-obake is a creature of the Japanese popular imagination, attested across the Japanese archipelago through printed illustration and stage drama, with no specific regional folk-legend tradition.
 
-Understanding the "sibling" yokai:
-
-| Aspect | Chochinobake | Kasa-obake |
-|--------|--------------|------------|
-| **Object** | Paper lantern | Paper umbrella |
-| **Movement** | Hangs, unfurls | Hops on one leg |
-| **Eye** | One large eye | One large eye |
-| **Tongue** | Long tongue out | Long tongue out |
-| **Behavior** | Hangs and startles | Hops around streets |
-| **Location** | Eaves, doorways | Streets, roads |
-| **Teeth** | Sometimes visible | Rarely shown |
-| **Philosophy** | Same tsukumogami values | Same tsukumogami values |
-| **Danger** | Harmless | Harmless |
-
-Both teach respect for everyday objects that serve us.
 
 ---
+## Historical Timeline
 
-## Cultural Significance
+| Date | Event | Significance |
+|---|---|---|
+| 1781 | Toriyama Sekien publishes Gazu Hyakki Tsurezure Bukuro, including the bura-bura, an animate paper lantern hanging from a roof | Earliest dated illustration of a lantern yōkai of this kind |
+| 1784 | Chōchin-obake recognised as a stock figure in Edo-period demonology and obake-karuta | Marks the popular acceptance of the creature as part of the standard yōkai pantheon |
+| 1825 | Tsuruya Nanboku IV's kabuki play Tōkaidō Yotsuya Kaidan premieres, popularising the lantern-as-ghost imagery (Oiwa's face emerging from a paper lantern) | Cements the chōchin's status as a vehicle for ghost stories in performance |
+| 1831 | Katsushika Hokusai prints 'Oiwa-san' in his Hyaku Monogatari (One Hundred Tales) series, c. 1831–32 — the most famous ukiyo-e depiction of a haunted lantern | Definitive visual reference for haunted lanterns in Japanese art |
+| 1968 | Mizuki Shigeru's manga GeGeGe no Kitarō helps revive yōkai including the chōchin-obake for postwar audiences | Anchors the creature in modern Japanese popular culture |
 
-### The Philosophy of Mottainai
+## Evidence
 
-Chochinobake embody **mottainai** (もったいない):
-- Sense of regret over waste
-- Feeling that discarding useful items is wrong
-- Respect for objects that have served us
-- Buddhist/Shinto concept of inherent value
+### Documentary
 
-**The Lesson**: Lanterns that lit your way for generations deserve better than abandonment.
-
-### Shinto Animism
-
-Chochinobake reflect the Shinto belief that:
-- All things can possess **kami** (spirit)
-- Long service creates spiritual connection
-- Objects develop "personalities" through use
-- Everything deserves respectful treatment
-
-### Traditional Object Gratitude
-
-Japanese cultural practice of:
-- Thanking tools for their service
-- Proper retirement ceremonies for old items
-- Respect for craftsmanship and utility
-- Mindfulness about consumption
-
-**Modern Relevance**: Values applicable to contemporary sustainability discussions.
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Bura-bura in Gazu Hyakki Tsurezure Bukuro | 1781 | Toriyama Sekien depicts a paper lantern hanging from house eaves, animate and one-eyed, under the name bura-bura. | verified |
+| Oiwa-san (Hyaku Monogatari) | 1831 | Katsushika Hokusai's celebrated print depicting the ghost of Oiwa emerging from a torn paper lantern; widely cited as the best-known artistic representation of the haunted lantern motif. | verified |
+| Edo-period obake-karuta sets |  | Edo-period Japanese ghost cards (obake-karuta) frequently feature a chōchin-obake among their illustrated yōkai, attesting to its place in popular entertainment. | verified |
 
 ---
+## Theories & Explanations
 
-## Historical Context
+### Paranormal / Cryptozoological
 
-### Edo Period Origins
+**Tsukumogami doctrine** _(Edo-period kusazōshi authors, Folklorist Komatsu Kazuhiko)_
 
-Chochinobake became prominent during the **Edo period (1603-1868)**:
-- Featured in **Toriyama Sekien's** yokai encyclopedias
-- Part of urban folklore and nighttime culture
-- Illustrated in woodblock prints
-- Common subject in yokai art
+In Japanese popular Buddhism and Shinto-influenced folk religion, household objects of long service can acquire a spirit (kami or rei) and transform into a yōkai. The chōchin-obake is presented as an exemplar of this principle.
 
-Paper lanterns were essential everyday objects:
-- Used for nighttime illumination
-- Carried while walking at night
-- Hung at homes, shops, temples
-- Represented light, guidance, safety
+### Skeptical
 
-Discarding one after years of service was seen as ungrateful.
+**Picture-yōkai (e-yōkai) hypothesis** _(Komatsu Kazuhiko, Mainstream Japanese folklore scholarship)_
 
----
+Modern folklorists (notably Komatsu Kazuhiko) argue that the chōchin-obake is essentially a literary and pictorial creation of Edo-period popular culture, with little or no associated regional legend, rather than a genuine folk-belief entity.
 
-## Regional Variations
 
-**Appearance Variations**:
-- Some regions emphasize the teeth/mouth more
-- Different artistic traditions depict features differently
-- Varying levels of "frightening" vs. "comical"
+## Popular Culture
 
-**Behavioral Variations**:
-- Some areas describe more or less active variants
-- Different traditional stories and encounters
-- Regional folklore nuances
+**Literature**: Toriyama Sekien, Gazu Hyakki Tsurezure Bukuro (1781); Tsuruya Nanboku IV, Tōkaidō Yotsuya Kaidan (1825); Mizuki Shigeru, GeGeGe no Kitarō (1960s onward); Komatsu Kazuhiko, scholarly works on yōkai (1980s–present); Michael Dylan Foster, Pandemonium and Parade: Japanese Monsters and the Culture of Yōkai (2009)
+
+**Film / TV**: Yōkai Daisensō (The Great Yokai War, 1968 / 2005 / 2021); GeGeGe no Kitarō (anime adaptations, multiple from 1968 onward); Demon Slayer: Kimetsu no Yaiba — lantern-themed yōkai imagery; Spirited Away (2001) — general tsukumogami sensibility
+
+**Games**: Yo-kai Watch — features lantern-themed yōkai in homage; Pokémon — Lampent and Chandelure designs draw on chōchin-obake imagery; Ōkami (2006) — inclusion of yōkai motifs
+
+**Other**: Standard fixture of Japanese haunted-house attractions (obake yashiki); Festival decorations and street-art motifs
 
 ---
+## Research
 
-## Chochinobake in Popular Culture
+### Researchers
 
-### Classic Representations
-- **Toriyama Sekien's Gazu Hyakki Yagyō** (1776) — Definitive Edo-period depiction
-- Traditional woodblock prints
-- Folk tales and children's stories
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Toriyama Sekien | Edo-period ukiyo-e artist | Codified the visual conventions of yōkai including the chōchin-type bura-bura in his four published yōkai collections (1776–1784) | 1776–1784 |
+| Yanagita Kunio | Founder of Japanese folklore studies (minzokugaku) | Established the academic study of yōkai; framed picture-yōkai as a category | Early 20th century |
+| Komatsu Kazuhiko | International Research Center for Japanese Studies (Nichibunken) | Leading modern scholar of yōkai folklore; developed the e-yōkai (picture-yōkai) framework | 1980s–present |
+| Michael Dylan Foster | University of California, Davis | English-language scholarship on Japanese yōkai including tsukumogami | 2000s–present |
 
-### Modern Media
+### Organizations
 
-**Anime & Manga**:
-- GeGeGe no Kitaro — Classic yokai series
-- Various supernatural anime featuring chochinobake
-- Character design inspiration for lantern-themed creatures
+- [International Research Center for Japanese Studies (Nichibunken)](https://www.nichibun.ac.jp/) — Japanese cultural research, including yōkai folklore
+- [World Yokai Association](https://www.yokai.com) — Public English-language reference site for Japanese yōkai
 
-**Video Games**:
-- **Pokemon - Lampent**: Directly inspired by chochinobake (Ghost/Fire-type lantern Pokemon)
-- Yokai Watch and other yokai-themed games
-- Japanese RPGs featuring tsukumogami
-- Common enemy or NPC in supernatural games
-
-**Other Media**:
-- Merchandise and character goods
-- Tourist items and cultural symbols
-- Modern art and illustration
-- Game character design inspiration
-
-### Pokemon Connection
-
-**Lampent** (Pokemon #608):
-- Ghost/Fire-type Pokemon
-- Design directly inspired by chochinobake
-- Lantern-like body with flames
-- Absorbs spirits (dark twist on folklore)
-- Evolution line: Litwick → Lampent → Chandelure
-
-This represents chochinobake's influence on modern Japanese popular culture.
+Active publication continues in Japanese folklore studies and English-language Japanese popular culture scholarship; the chōchin-obake remains a routine case study in discussions of tsukumogami and picture-yōkai.
 
 ---
+## Sources
 
-## Cultural Sensitivity Note
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-> ⚠️ **Important**: While often portrayed as cute or scary in games and media, chochinobake represent genuine Japanese cultural philosophy about:
-> - Respect for objects and their service
-> - Anti-waste values (mottainai)
-> - Shinto animistic beliefs
-> - Gratitude practices
-> 
-> Understanding the deeper cultural context enriches appreciation beyond entertainment value.
 
----
+## How to Report a Sighting
 
-## How to Prevent (Traditional Folklore)
-
-According to traditional beliefs, tsukumogami transformation could be prevented by:
-
-1. **Proper maintenance** — Keep lanterns in good condition
-2. **Respectful retirement** — Ceremonially dispose of old objects with gratitude
-3. **Gratitude practices** — Thank objects for their service
-4. **Timely replacement** — Replace before 100 years (practical concern)
-5. **Continued use** — Keep using rather than abandoning
-
-**Modern Understanding**: These practices reflect values of mindfulness, respect, and sustainability—principles still relevant today.
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## How to Report an Encounter
-
-While chochinobake are traditional folklore, cultural documentation is valuable:
-
-1. **Cultural Context**: Document as folklore and tradition
-2. **Location**: Connection to historical sites or traditional buildings
-3. **Cultural Sensitivity**: Respect underlying philosophical values
-4. **Academic Interest**: Folkloric and anthropological perspectives
-
----
-
-## API Reference
-
-Machine-readable data is available in [`api.json`](api.json).
-
-### Data Access
-
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const chochinobake = await wyrd.getPhenomenon('chochinobake');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/chochinobake/main/api.json
-```
-
----
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Key Sources
-
-- Foster, M.D. (2015). *The Book of Yokai: Mysterious Creatures of Japanese Folklore*
-- Toriyama Sekien. *Gazu Hyakki Yagyō* (1776)
-- Yokai.com Database - Chochinobake Entry
-
----
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
